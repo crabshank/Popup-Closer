@@ -13,7 +13,7 @@ function checker(lstChk){
 			return false;
 		}
 
-		if (lspc[lspc.length + 1] === ""){
+		if (lspc[lspc.length-1] === ""){
 			return false;
 		}
 		let lspcj=lspc.join('').split('/');
@@ -99,5 +99,6 @@ function save_options()
 }
 
 restore_options();
+
 
 
