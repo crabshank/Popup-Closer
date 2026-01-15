@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Popup closer",
-  "version": "2024.7",
+  "version": "2026.1",
     "options_page":  "options.html",
    "background": {
 		"service_worker": "background.js"
